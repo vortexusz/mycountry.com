@@ -1,0 +1,23 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    text-align:center;
+    margin:  30px 0px 50px;
+}
+.gallery{
+    margin: 10px 50px;
+}
+.gallery img{
+    padding: 5px;
+    filter: grayscale(100%);
+    transition:1s;
+    max-width: 100%;
+    background-repeat: none;
+    align-items:flex-start;
+    background-color:rosybrown;
+}
+.gallery img:hover{
+    filter:grayscale(0);
+    transform: scale(1.1);
+}
